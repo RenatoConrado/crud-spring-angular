@@ -17,6 +17,7 @@
     "paths": {
       "@/*": ["./src/main/angular/*"],
       "@app/*": ["./src/main/angular/app/*"],
+      "@pages/*": ["./src/main/angular/app/pages/*"],
       "@resources/*": ["./src/main/resources/*"],
       "@static/*": ["./src/main/resources/static/*"],
       "@config/*": ["./src/main/angular/app/config/*"]
@@ -31,11 +32,7 @@
   },
   "files": [],
   "references": [
-    {
-      "path": "./tsconfig.app.json"
-    },
-    {
-      "path": "./tsconfig.spec.json"
-    }
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.spec.json" }
   ]
 }

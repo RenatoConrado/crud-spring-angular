@@ -10,7 +10,7 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import java.util.List;
 
 @Configuration
-class CorsConfig {
+public class CorsConfig {
 
     public static final String[]
         ALLOWED_METHODS = { "GET", "POST", "PUT", "DELETE", "OPTIONS" },
